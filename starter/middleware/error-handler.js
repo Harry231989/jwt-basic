@@ -10,4 +10,5 @@ const errorHandlerMiddleware = (err, req, res, next) => {
     .send('Something went wrong try again later');
 };
 
+// Almost finished
 module.exports = errorHandlerMiddleware;
