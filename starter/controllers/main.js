@@ -27,6 +27,7 @@ const dashboard = async (req, res) => {
   });
 };
 
+// Added all Projects
 module.exports = {
   login,
   dashboard,
